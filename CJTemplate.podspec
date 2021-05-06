@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lele8446' => 'lele8446@foxmail.com' }
   # 此处修改成正确的代码仓库地址
-  s.homepage         = 'http://code.paic.com.cn/ios_common_component/smartrouter'
-  s.source           = { :git => 'http://code.paic.com.cn/ios_common_component/smartrouter.git', :tag => s.version.to_s }
+  s.homepage         = 'https://github.com/lele8446/CJTemplate'
+  s.source           = { :git => 'https://github.com/lele8446/CJTemplate.git', :tag => s.version.to_s }
   s.platform     = :ios
   s.ios.deployment_target = '9.0'
   s.requires_arc = true
