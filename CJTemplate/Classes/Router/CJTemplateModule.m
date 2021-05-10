@@ -7,13 +7,13 @@
 //
 
 #import "CJTemplateModule.h"
-#import <CJRouter.h>
+#import <CJLRouter.h>
 #import <UIKit/UIKit.h>
 
 @implementation CJTemplateModule
 
 + (void)load {
-    [CJModuleManager registerModuleClass:self.class];
+    [CJLModuleManager registerModuleClass:self.class];
 }
 
 #pragma mark - CJModuleProtocol @required

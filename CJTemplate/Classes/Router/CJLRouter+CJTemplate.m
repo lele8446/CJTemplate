@@ -1,5 +1,5 @@
 //
-//  CJRouter+CJTemplate
+//  CJLRouter+CJTemplate.m
 //  CJTemplate
 //
 //  Created by lele8446 on 2018/10/22.
@@ -7,9 +7,9 @@
 //
 
 
-#import "CJRouter+CJTemplate.h"
+#import "CJLRouter+CJTemplate.h"
 
-@implementation CJRouter (CJTemplate)
+@implementation CJLRouter (CJTemplate)
 ///// 获取登录页面Controller
 //+ (UIViewController *)login_loginViewController {
 //    // TODO: 获取登录页面

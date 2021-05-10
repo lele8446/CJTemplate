@@ -1,5 +1,5 @@
 //
-//  CJRouter+CJTemplate
+//  CJLRouter+CJTemplate.h
 //  CJTemplate
 //
 //  Created by lele8446 on 2018/10/22.
@@ -16,18 +16,18 @@
  
  其他组件调用：
  1、路由分类方法转发调用
-   UIViewController *loginVC = [CJRouter routerPerformSELname:@"login_loginViewController"];
-   BOOL result = [CJRouter routerPerformSELname:@"login_updateUserName:" params:@[@"username"]];
+   UIViewController *loginVC = [CJLRouter routerPerformSELname:@"login_loginViewController"];
+   BOOL result = [CJLRouter routerPerformSELname:@"login_updateUserName:" params:@[@"username"]];
  
  2、AppScheme路由URI调用
- BOOL result = [CJRouter routerPerformWithUri:@"CJRouter://login/login_updateUserName:?name=username"];
+ BOOL result = [CJLRouter routerPerformWithUri:@"CJLRouter://login/login_updateUserName:?name=username"];
  
  */
 
-#import "CJRouter.h"
+#import <CJLRouter.h>
 #import <UIKit/UIKit.h>
 
-@interface CJRouter (CJTemplate)
+@interface CJLRouter (CJTemplate)
 
 ///// 获取登录页面Controller
 //+ (UIViewController *)login_loginViewController;
