@@ -8,7 +8,7 @@
 
 /*
  * 声明当前组件可供外部调用的通信接口
- * 接口方法名格式：+ 当前模块名_方法
+ * 接口方法名格式：+ 当前模块名_方法名
  *
  当前组件接口：
    例1: + (UIViewController *)login_loginViewController;//获取登录页面Controller
